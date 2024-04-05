@@ -22,7 +22,7 @@ export default function RootLayout({
         <body className={font.className}>
           <Toaster />
           {children}
-        </body>{" "}
+        </body>
       </html>
     </ClerkProvider>
   );
